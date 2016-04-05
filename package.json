@@ -1,12 +1,17 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
-  "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "name": "Shop",
+  "version": "0.0.1",
   "private": true,
-  "main": "start.js",
   "scripts": {
-    "start": "node --use_strict start.js"
+    "start": "node server.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "ejs": "^2.4.1",
+    "express": "3.2.0",
+    "mongodb": "^2.1.14",
+    "mongoose": "^4.4.11",
+    "soap": "^0.13.0",
+    "underscore": "^1.8.3"
+  }
 }
